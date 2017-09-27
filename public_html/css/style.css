@@ -1,0 +1,14 @@
+/*
+    Author: Jonathan Kimber
+    Date:   September 2017
+
+    This is the style sheet for my soon-to-be
+    awesome website!
+ */
+
+body {
+    background-color: lightblue;
+    font-family: Sans-Serif;
+    text-align: center;
+    margin: 20em;
+}
