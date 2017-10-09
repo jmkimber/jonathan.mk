@@ -6,9 +6,30 @@
     awesome website!
  */
 
-body {
+/* body {
     background-color: lightblue;
     font-family: Sans-Serif;
     text-align: center;
     margin: 20em;
+} */
+
+.site {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "navbar"
+                         "main-content"
+                         "contact-info";
+}
+
+.navbar {
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
 }
